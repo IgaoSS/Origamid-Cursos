@@ -17,9 +17,8 @@ var ii = 5;
 console.log(++ii);
 
 // Como dividir o peso por 2?
-var numero = '80';
+var numero = +'80' / 2;
 var unidade = 'kg';
 var peso = numero + unidade; // '80kg'
 //var pesoPorDois = peso / 2; // NaN (Not a Number)
-var pesoPorDois = numero / 2;
-console.log(pesoPorDois);
+console.log(peso);
